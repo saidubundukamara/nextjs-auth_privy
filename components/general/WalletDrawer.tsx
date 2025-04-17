@@ -12,13 +12,13 @@ import {
 export type Wallet = {
   address: string;
   chainType: string;
-  connectorType: string;
-  delegated: boolean;
-  id: string | null;
-  imported: boolean;
-  recoveryMethod: string;
-  walletClientType: string;
-  walletIndex: number;
+ // connectorType: string;
+   delegated: boolean;
+  // id: string | null;
+  // imported: boolean;
+  // recoveryMethod: string;
+  // walletClientType: string;
+  // walletIndex: number;
 };
 
 type WalletDrawerProps = {
