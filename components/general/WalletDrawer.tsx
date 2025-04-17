@@ -9,7 +9,7 @@ import {
   DrawerTrigger,
 } from "../ui/drawer";
 
-type Wallet = {
+export type Wallet = {
   address: string;
   chainType: string;
   connectorType: string;
@@ -26,6 +26,9 @@ type WalletDrawerProps = {
 };
 
 export function WalletDrawer({ wallet }: WalletDrawerProps) {
+
+  if (!wallet) return null;
+
   return (
     <Drawer direction="right">
       <DrawerTrigger>

@@ -25,7 +25,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-   const app_id = process.env.NEXT_PUBLIC_PRIVY_APP_ID;
+   const app_id = process.env.NEXT_PUBLIC_PRIVY_APP_ID || '';
    const client_id = process.env.NEXT_PUBLIC_PRIVY_CLIENT_ID;
   
   return (

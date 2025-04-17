@@ -188,7 +188,7 @@ export function NavBar() {
         {ready && authenticated && (
           <div className="flex items-center space-x-4">
             <div className="bg-white border border-gray-200 rounded-md px-3 py-1 flex items-center">
-              {user && (
+            {user && user.wallet && (
                 <WalletDrawer wallet={user.wallet} />
               )}
             
