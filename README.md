@@ -34,7 +34,7 @@ Visit http://localhost:3000 to view the app.
 
 #### 🌐 Live Preview
 You can preview the deployed project here:
-🔗 https://your-project-name.vercel.app
+🔗 https://nextjs-auth-privy-8h73.vercel.app/
 
 (Replace with your actual Vercel link)
 
