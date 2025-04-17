@@ -88,7 +88,7 @@ export function NavBar() {
               <DialogHeader>
                 <DialogTitle>
                   <div className="flex flex-col items-center justify-center gap-1">
-                    <p className="font-bold text-2xl">You're one step away</p>
+                    <p className="font-bold text-2xl">{'You\'re'} one step away</p>
                     <p className="text-sm text-gray-500">
                       From earning in global standards
                     </p>

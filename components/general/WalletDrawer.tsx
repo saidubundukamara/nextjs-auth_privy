@@ -39,7 +39,7 @@ export function WalletDrawer({ wallet }: WalletDrawerProps) {
       <DrawerContent className="right-0 top-0 h-full w-80 max-w-full fixed bg-white shadow-lg transition-transform duration-300 transform translate-x-full data-[state=open]:translate-x-0">
         <DrawerHeader>
           <DrawerTitle>
-            Saidu's Wallet <span className="font-light text-sm">{wallet.address.slice(0, 4)}...
+          {'Saidu\'s Wallet'} <span className="font-light text-sm">{wallet.address.slice(0, 4)}...
             {wallet.address.slice(-5)}</span>
             <Button
               size="icon"

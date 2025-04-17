@@ -26,7 +26,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
    const app_id = process.env.NEXT_PUBLIC_PRIVY_APP_ID || '';
-   const client_id = process.env.NEXT_PUBLIC_PRIVY_CLIENT_ID;
+  //  const client_id = process.env.NEXT_PUBLIC_PRIVY_CLIENT_ID;
   
   return (
     <PrivyProvider
